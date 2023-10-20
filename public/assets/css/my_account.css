@@ -1,0 +1,144 @@
+body {
+    color: #34495e;
+    background: #fff;
+    font: 400 15px/1.2 Lato, Helvetica, Helvetica Neue, Arial, sans-serif;
+    min-width: 320px;
+    -webkit-font-smoothing: antialiased;
+}
+
+
+#root {
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+#root, body {
+    display: flex;
+    flex-direction: column;
+}
+.mm-popup {
+    display: none;
+}
+.mm-popup__overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1000;
+    overflow: auto;
+    background: rgba(0,0,0,.3);
+}
+.public_profile {
+    position: relative;
+    min-height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.public_profile .column_left, .public_profile .column_right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.public_profile .column_left {
+    position: relative;
+    background: #f1f1f1;
+}
+
+.public_profile .column_right {
+    flex-direction: column;
+    padding: 30px 10%;
+    text-align: center;
+}
+.public_profile .column_left, .public_profile .column_right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.public_profile .column_right .title {
+    margin: 20px 0;
+}
+
+.public_profile .column_right .support_button_box button {
+    font-size: 24px;
+    padding: 15px 50px;
+    font-weight: 600;
+    color: #50e3c2;
+    display: inline-block;
+    background: transparent;
+    border: 2px solid #50e3c2;
+    border-radius: 40px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    -webkit-transform: .5s;
+    -moz-transform: .5s;
+    transition: .5s;
+}
+[type=button], [type=reset], [type=submit], button {
+    -webkit-appearance: button;
+}
+button, select {
+    text-transform: none;
+}
+button, input {
+    overflow: visible;
+}
+button, input, optgroup, select, textarea {
+    font-family: inherit;
+    font-size: 100%;
+    line-height: 1.15;
+    margin: 0;
+}
+*, :after, :before {
+    box-sizing: inherit;
+}
+user agent stylesheet
+button {
+    padding: 1px 6px;
+}
+user agent stylesheet
+button {
+    align-items: flex-start;
+    text-align: center;
+    cursor: default;
+    color: buttontext;
+    background-color: buttonface;
+    box-sizing: border-box;
+    padding: 2px 6px 3px;
+    border-width: 2px;
+    border-style: outset;
+    border-color: buttonface;
+    border-image: initial;
+}
+user agent stylesheet
+button {
+    text-rendering: auto;
+    color: initial;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    margin: 0em;
+    font: 400 13.3333px Arial;
+}
+user agent stylesheet
+button {
+    -webkit-writing-mode: horizontal-tb !important;
+}
+user agent stylesheet
+button {
+    -webkit-appearance: button;
+}
+.public_profile .column_right {
+    flex-direction: column;
+    padding: 30px 10%;
+    text-align: center;
+}
+.public_profile .column_right .copyright_box {
+    margin-top: 30px;
+    font-family: Lato Bold;
+}

@@ -1,0 +1,108 @@
+.partners_page {
+    margin-top: 100px;
+}
+
+.container {
+    max-width: 90%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.row {
+    margin: 40px 0;
+}
+
+.partners_page .title {
+    text-align: center;
+    margin: 50px auto !important;
+    width: 80%;
+    padding: 0;
+    color: #34495e;
+
+}
+
+h1 {
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+
+}
+.thumbnail{
+    background-color: #f7f8f9;
+}
+
+.partners_page .title h1 {
+    font-size: 30pt;
+    font-family: Lato Black;
+    font-weight: bold;
+}
+
+.partners_page .title .subtitle {
+    display: block;
+    margin: 18px;
+    font-family: Lato Regular;
+    font-size: 25pt;
+    padding: 0;
+}
+
+
+.caption {
+    margin: 30px auto;
+}
+
+.partnerlogo {
+    font-size: 18px;
+    color: #34495e;
+    font-family: Lato;
+    font-weight: 400;
+}
+
+.partner-name {
+    font-size: 14px;
+    font-weight: 600;
+    color: #34495e;
+}
+
+.desc {
+    font-size: 14px;
+    font-weight: 600;
+    padding: 0 30%;
+    color: #34495e;
+    margin-bottom: 50px;
+}
+
+.learn {
+    text-decoration: none;
+    color: #4a90e2;
+    background-color: initial;
+}
+.partners_page .become_partner {
+    padding: 30px;
+    border-top: 2px solid #ebeced;
+    border-bottom: 2px solid #ebeced;
+    text-align: center;
+}
+
+.partners_page .become_partner .title h3 {
+    font-size: 40px;
+    font-weight: 800;
+}
+.partners_page .become_partner .title  span {
+    font-weight: 400;
+    margin: 20px;
+    font-size: 30px;
+    /*padding: 0 60px;*/
+}
+.partners_page .become_partner .contact_us_btn button {
+    padding: 25px 40px;
+    font-size: 18px;
+    background: #d76894;
+    border: none;
+    color: #fff;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 20px 0;
+}
